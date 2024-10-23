@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Coffee</title>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 </head>
+
 <body>
     <nav>
-        <div class="main-div">
-            <ul class="ul-list">
-                <li class="li-c"><img src="./logo.png" alt="logo" height="70px" width="auto"></li>
-            </ul>
-        </div>
+        <img src="./image/logo-c.png" id="logo">
         <div class="div-2">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
             <ul class="ul-list">
-            <li class="li-c">Home</li>
-            <li class="li-c">Menu</li>
-            <li class="li-c">About</li>
-            <li class="li-c">Eco Practices</li>
-            <li class="li-c">Reviews</li>
-            <li class="li-c">Contact</li>
-            </ul>
+                <li class="li-c"><a class="active" href="">Home</a></li>
+                <li class="li-c"><a href="#section1">Menu</a></li>
+                <li class="li-c"><a href="#">About</a></li>
+                <li class="li-c"><a href="#">Eco Practices</a></li>
+                <li class="li-c"><a href="#">Reviews</a></li>
+                <li class="li-c"><a href="#">Contact</a></li>
         </div>
     </nav>
 
     <div class="content-1">
         <div class="part-1">
             <h1>"Experience Coffee Like Never Before"</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolor reiciendis, labore doloremque blanditiis excepturi rem vitae dolorem illo? Ullam nam mollitia aspernatur culpa aut expedita ipsum minima quas ad.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolor reiciendis, labore doloremque
+                blanditiis excepturi rem vitae dolorem illo? Ullam nam mollitia aspernatur culpa aut expedita ipsum
+                minima quas ad.</p>
             <button class="btn">Learn More...</button>
-            <button class="btn-2"><img src="./arrow.png" alt="a" height="15px"></button>
+            <button class="btn-2"><img src="./image/arrow.png" alt="a" height="15px"></button>
         </div>
         <div class="part-2">
-            <img src="./cup1.png" alt="cup" height="500px">
+            <img src="./image/cup1.png" alt="cup" height="500px">
         </div>
     </div>
-    <div class="content-2">
+    <div id="section1">
+        <h3>Menu Section</h3>
+        this is servicefgfhdiugdhfuigydfhiugdfygidufy
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi tenetur porro, cumque accusantium cupiditate
+        deleniti quam magnam ipsum odio laboriosam ullam explicabo in ut! Cumque nesciunt amet nam quia?
+        Qui voluptatibus est accusantium excepturi modi ullam exercitationem illo, laboriosam voluptatum accusamus.
+        Assumenda odit beatae modi ullam reiciendis, a
+        Autem atque, non maxime blanditiis quod corrupti veniam. Ducimus voluptatibus animi soluta id sapiente
+        perferendis molestiae aliquid. Non, molestias at!
 
+        
     </div>
+    <script>
+        function scrollToService() {
+            document.querySelector('.service').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
+
 </html>
